@@ -8,11 +8,11 @@ The image is resized and split into a fixed grid of patches. Each patch is class
 
 ## Training
 
-train.py
+python train.py
 
 ## Inference
 
-run.py
+python run.py
 
 ## Model
 
