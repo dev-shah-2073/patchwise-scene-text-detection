@@ -6,6 +6,14 @@ Lightweight scene text detection using patch-level classification and regression
 
 The image is resized and split into a fixed grid of patches. Each patch is classified as text/non-text and regresses a bounding box. Overlapping positive patches are merged to produce final text regions.
 
+## Training
+
+train.py
+
+## Inference
+
+run.py
+
 ## Model
 
 * Backbone: **MobileNetV3-Large**
