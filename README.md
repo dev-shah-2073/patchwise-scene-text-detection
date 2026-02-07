@@ -15,6 +15,12 @@ The image is resized and split into a fixed grid of patches. Each patch is class
 
 ## Demo
 
-<img width="387" height="409" alt="Screenshot 2026-02-08 at 2 22 48 AM" src="https://github.com/user-attachments/assets/8a5b1243-c732-4e35-9c3e-6b3f6e233dee" />
+### Input image
+<br/>
 
+<img width="387" height="409" alt="Screenshot 2026-02-08 at 2 22 48 AM" src="https://github.com/user-attachments/assets/8a5b1243-c732-4e35-9c3e-6b3f6e233dee" />
+<br/>
+
+### Text Detection
+<br/>
 <img width="254" height="216" alt="Screenshot 2026-02-08 at 2 22 57 AM" src="https://github.com/user-attachments/assets/939f2218-0dcc-4f03-b88f-be2dc0259d8a" />
