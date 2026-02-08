@@ -16,7 +16,7 @@ patch-based-text-detection/
 |   |-- ground_truth.py         # GT generation and coordinate transforms
 |
 |-- model/
-|   |-- mobilenet.py            # MobileNetV3-based detection model<br/>
+|   |-- mobilenet.py            # MobileNetV3-based detection model
 |   |-- loss.py                 # Classification + conditional regression loss
 |
 | training/
@@ -26,9 +26,10 @@ patch-based-text-detection/
 |   |-- predict.py              # Patch inference, box merging, visualization
 |
 |-- utils/
-|   |-- box_ops.py              # IoU, grouping, box merging utilities
-|   |-- visualize.py            # Cropping and plotting helpers
-│
+|   |-- iou.py                  # IoU, grouping, box merging utilities
+|
+|-- train.py                    # To run the training code
+|-- run.py                      # To run the inference code
 |-- requirements.txt            # Python dependencies
 |-- README.md                   # Project documentation
 </pre>
