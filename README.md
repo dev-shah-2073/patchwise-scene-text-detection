@@ -7,7 +7,7 @@ Lightweight scene text detection using patch-level classification and regression
 The image is resized and split into a fixed grid of patches. Each patch is classified as text/non-text and regresses a bounding box. Overlapping positive patches are merged to produce final text regions.
 
 ## Project Tree
-
+<pre>
 patch-based-text-detection/<br/>
 |<br/>
 |-- dataset/<br/>
@@ -29,8 +29,9 @@ patch-based-text-detection/<br/>
 |   |-- box_ops.py              # IoU, grouping, box merging utilities<br/>
 |   |-- visualize.py            # Cropping and plotting helpers<br/>
 │<br/>
-├── requirements.txt            # Python dependencies<br/>
-├── README.md                   # Project documentation<br/>
+|-- requirements.txt            # Python dependencies<br/>
+|-- README.md                   # Project documentation<br/>
+</pre>
 
 ## Training
 
