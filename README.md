@@ -9,35 +9,28 @@ The image is resized and split into a fixed grid of patches. Each patch is class
 ## Project Tree
 
 patch-based-text-detection/<br/>
-│<br/>
-├── dataset/<br/>
-│   ├── dataset.py              # End-to-end Dataset & DataLoader<br/>
-│   ├── preprocessing.py        # Image resize, normalization, patchification<br/>
-│   └── ground_truth.py         # GT generation and coordinate transforms<br/>
-│<br/>
-├── model/<br/>
-│   ├── mobilenet.py            # MobileNetV3-based detection model<br/>
-│   └── loss.py                 # Classification + conditional regression loss<br/>
-│<br/>
-├── training/<br/>
-│   └── train.py                # Training loop and checkpointing<br/>
-│<br/>
-├── inference/<br/>
-│   └── predict.py              # Patch inference, box merging, visualization<br/>
-│<br/>
-├── utils/<br/>
-│   ├── box_ops.py              # IoU, grouping, box merging utilities<br/>
-│   └── visualize.py            # Cropping and plotting helpers<br/>
-│<br/>
-├── configs/<br/>
-│   └── config.py               # Hyperparameters and paths<br/>
-│<br/>
-├── notebooks/<br/>
-│   └── experiments.ipynb       # Original research and debugging notebook<br/>
+|<br/>
+|-- dataset/<br/>
+|   |-- dataloader.py           # End-to-end Dataset & DataLoader<br/>
+|   |-- preprocessing.py        # Image resize, normalization, patchification<br/>
+|   |-- ground_truth.py         # GT generation and coordinate transforms<br/>
+|<br/>
+|-- model/<br/>
+|   |-- mobilenet.py            # MobileNetV3-based detection model<br/>
+|   |-- loss.py                 # Classification + conditional regression loss<br/>
+|<br/>
+| training/<br/>
+|   |-- trainer.py              # Training loop and checkpointing<br/>
+|<br/>
+|-- inference/<br/>
+|   |-- predict.py              # Patch inference, box merging, visualization<br/>
+|<br/>
+|-- utils/<br/>
+|   |-- box_ops.py              # IoU, grouping, box merging utilities<br/>
+|   |-- visualize.py            # Cropping and plotting helpers<br/>
 │<br/>
 ├── requirements.txt            # Python dependencies<br/>
 ├── README.md                   # Project documentation<br/>
-└── .gitignore<br/>
 
 ## Training
 
